@@ -1,0 +1,538 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1717161363515336, "dur": 1657871, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717161363515560, "dur": 4924, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717161363520486, "dur": 47506, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717161363567993, "dur": 796547, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717161364364543, "dur": 795391, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717161365159935, "dur": 13271, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717161365174392, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1717161364112891, "dur": 235655, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717161364113738, "dur": 42080, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717161364328063, "dur": 5155, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717161364333221, "dur": 15318, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717161364333945, "dur": 13439, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717161364353693, "dur": 1482, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717161364352866, "dur": 2330, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717161365174553, "dur": 410, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1717161364413207, "dur":1758, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161364414973, "dur":31, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1717161364415020, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1717161364415030, "dur":346, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1717161364415392, "dur":508, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161364415900, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142454, "dur":202, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142656, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142684, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142687, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142693, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142695, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142703, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142705, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142713, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142714, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142719, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142720, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142725, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142726, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142731, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142732, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142736, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142737, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142741, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142742, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142746, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142747, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142751, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142752, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142756, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142757, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142761, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142762, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142766, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142768, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142771, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142772, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142778, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142788, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365142800, "dur":2005, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717161364415797, "dur":110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717161364415908, "dur":9558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717161364425472, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717161364425753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717161364436222, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717161364439024, "dur":79307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161364518337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717161364518347, "dur":6231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161364524751, "dur":109148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161364633903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717161364633950, "dur":3004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161364637101, "dur":39513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161364676618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717161364676624, "dur":5301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161364682081, "dur":110725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161364792810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717161364792817, "dur":7428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161364800390, "dur":208061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161365008454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717161365008459, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717161365011103, "dur":131354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364415830, "dur":86, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364415917, "dur":9555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364425473, "dur":8404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1717161364433880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364434429, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1717161364436974, "dur":51946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364488927, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364490111, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364492855, "dur":68283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364561195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364561202, "dur":4211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364565559, "dur":49192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364614755, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364614763, "dur":5046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364619985, "dur":30321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364650313, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364650324, "dur":5436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364655927, "dur":33389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364689342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364689351, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364693272, "dur":53757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364747034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364747041, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364751627, "dur":122529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364874160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161364874167, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161364878044, "dur":208823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161365086873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717161365086881, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717161365088801, "dur":53651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364415823, "dur":89, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364415912, "dur":9557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364425471, "dur":8304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1717161364433779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364435802, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1717161364438685, "dur":86926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1717161364525615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364525620, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1717161364528608, "dur":25873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364554488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364554497, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364556855, "dur":29177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364586036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364586042, "dur":5080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364591483, "dur":50216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364641703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364641710, "dur":4190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364646267, "dur":135068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364781339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364781347, "dur":3060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364784642, "dur":40985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364825633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364825641, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364828037, "dur":56938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364884981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364884990, "dur":3381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364888511, "dur":59930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364948445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717161364948450, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717161364950880, "dur":191567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364415851, "dur":71, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364415923, "dur":9549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364425472, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1717161364425704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364430377, "dur":3140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1717161364433698, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1717161364433927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364433932, "dur":3332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1717161364437448, "dur":72528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364509980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364510192, "dur":8781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364519140, "dur":49693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364568839, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364568850, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364571870, "dur":33106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364604983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364605157, "dur":5545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364610837, "dur":30233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364641074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364641080, "dur":4739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364646240, "dur":32964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364679208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364679363, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364683497, "dur":73126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364756626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364756635, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364759237, "dur":96271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364855514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364855523, "dur":6049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364861717, "dur":60212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364921936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364921945, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717161364925604, "dur":1703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1717161364927310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364927353, "dur":4766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1717161364932265, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1717161364932411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364932419, "dur":4816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1717161364937395, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1717161364937538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364937544, "dur":4255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1717161364941948, "dur":837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1717161364942789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717161364942796, "dur":5821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1717161364948777, "dur":193671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717161364415878, "dur":47, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717161364415925, "dur":9540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717161364425473, "dur":30628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1717161364456105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717161364456776, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1717161364459238, "dur":33334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161364492579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717161364492589, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161364496290, "dur":106844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161364603140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717161364603150, "dur":6425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161364609708, "dur":119154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161364728866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717161364728874, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161364731199, "dur":87657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161364818862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717161364818870, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161364821380, "dur":186560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161365007944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717161365007948, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717161365010285, "dur":132170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364415899, "dur":3, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364415904, "dur":9560, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364425471, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1717161364425477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364428371, "dur":615, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1717161364428991, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1717161364429167, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364429662, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1717161364433460, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1717161364433643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364435734, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1717161364439376, "dur":25528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161364464910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364465672, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161364469436, "dur":32867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161364502307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364502313, "dur":4305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161364506757, "dur":166374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161364673134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364673141, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161364675872, "dur":36623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161364712500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161364712509, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161364715644, "dur":288763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161365004411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717161365004418, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717161365006484, "dur":135980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364415919, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364415919, "dur":9558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364425478, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1717161364425780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364439105, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1717161364441626, "dur":52666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364494296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364494302, "dur":3230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364497676, "dur":26147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364523827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364523833, "dur":4959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364529063, "dur":48477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364577544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364577550, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364580736, "dur":50380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364631123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364631133, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364635017, "dur":70937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364705959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364705966, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364710020, "dur":42558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364752582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364752591, "dur":3102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364755824, "dur":166877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364922704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364922711, "dur":3728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717161364926575, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717161364926990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364926997, "dur":5949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717161364933421, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717161364933577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364933582, "dur":4722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717161364938445, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1717161364938617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717161364938622, "dur":3586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1717161364942626, "dur":199824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717161364415942, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717161364415943, "dur":9531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717161364425476, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1717161364426089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717161364458085, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1717161364462368, "dur":123487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364585862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717161364585873, "dur":4554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364590586, "dur":60184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364650773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717161364650778, "dur":6097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364657151, "dur":45305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364702463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717161364702473, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364705353, "dur":87632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364792988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717161364792993, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364796236, "dur":188731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364984971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717161364984978, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717161364987061, "dur":155399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364415965, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364415966, "dur":9503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364425473, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1717161364426095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364466959, "dur":3586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1717161364470736, "dur":31307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364502047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364502055, "dur":6991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364509205, "dur":31915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364541126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364541135, "dur":4720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364545999, "dur":39940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364585943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364586004, "dur":4519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364590686, "dur":41671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364632362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364632369, "dur":4022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364636545, "dur":33436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364669986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364669996, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364672603, "dur":52066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364724676, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364724687, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364727243, "dur":263884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364991131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717161364991138, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717161364994312, "dur":148150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364415987, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364415987, "dur":9492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364425479, "dur":7929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1717161364433411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364435735, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1717161364438888, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1717161364439090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364439817, "dur":6887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1717161364446871, "dur":51346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364498221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364498231, "dur":5692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364504231, "dur":56665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364560903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364560958, "dur":4067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364565195, "dur":30004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364595204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364595215, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364598877, "dur":42392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364641273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364641279, "dur":4700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364646304, "dur":28805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364675115, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364675125, "dur":4023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364679323, "dur":63990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364743319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364743328, "dur":8096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364751628, "dur":196546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364948178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717161364948228, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717161364950930, "dur":191519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364416016, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364416016, "dur":9459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364425475, "dur":8357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1717161364433834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364434384, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1717161364436808, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1717161364437044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364437051, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1717161364440017, "dur":29354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364469375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364469557, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364472132, "dur":26442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364498579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364498585, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364502212, "dur":44024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364546239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364546247, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364548693, "dur":28260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364576960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364576971, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364580473, "dur":34008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364614487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364614497, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364618091, "dur":32858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364650952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364650958, "dur":5342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364656497, "dur":57053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364713554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364713561, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364717672, "dur":58474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364776152, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364776162, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364778719, "dur":94704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364873429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161364873437, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161364877304, "dur":261997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161365139305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717161365139311, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717161365142413, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1717161365142415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364416028, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364416028, "dur":9452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364425481, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1717161364425878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364438957, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1717161364441574, "dur":51509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364493086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364493094, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364495798, "dur":27565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364523368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364523420, "dur":4453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364528674, "dur":62705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364591383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364591390, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364594134, "dur":35346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364629486, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364629497, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364632723, "dur":32801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364665531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364665540, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364668224, "dur":163012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364831278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364831285, "dur":6407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364837872, "dur":131282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364969159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717161364969167, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717161364971570, "dur":170898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717161364416050, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717161364416050, "dur":9426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717161364425480, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1717161364425979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717161364452407, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1717161364455385, "dur":44818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364500209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717161364500218, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364505760, "dur":148741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364654507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717161364654516, "dur":7647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364662337, "dur":51492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364713832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717161364713838, "dur":5264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364719310, "dur":109011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364828325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717161364828332, "dur":8070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364836554, "dur":142822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364979380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717161364979387, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717161364981717, "dur":160750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364416070, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364416070, "dur":9415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364425485, "dur":7501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1717161364432991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364435248, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1717161364438326, "dur":153614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364591943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364591948, "dur":16188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364608299, "dur":32633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364640940, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364640952, "dur":4669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364645779, "dur":34247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364680029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364680037, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364682887, "dur":109135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364792027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364792035, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364795509, "dur":43354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364838867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364838875, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364841409, "dur":154316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364995758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717161364995764, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717161364997586, "dur":144870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364416095, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364416096, "dur":9374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364425471, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1717161364425915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364446306, "dur":2953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1717161364449506, "dur":27565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364477078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364477086, "dur":4890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364482124, "dur":39762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364521893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364521902, "dur":5805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364527865, "dur":58251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364586120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364586126, "dur":5035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364591394, "dur":59185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364650631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364650637, "dur":5631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364656490, "dur":29682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364686178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364686186, "dur":6020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364692358, "dur":91546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364783947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364783954, "dur":6457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364790573, "dur":111338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364901917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364901975, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717161364904271, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1717161364904401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364904526, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1717161364907415, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":15, "ts":1717161364907575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364907581, "dur":4027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":15, "ts":1717161364911753, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1717161364911894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364911900, "dur":11219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1717161364923268, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1717161364923420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364923425, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1717161364925971, "dur":9018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1717161364934992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364934998, "dur":4418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1717161364939557, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1717161364939688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717161364939693, "dur":7550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1717161364947401, "dur":195045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364416124, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364416125, "dur":9343, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364425471, "dur":8348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1717161364433822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364435817, "dur":2660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1717161364438724, "dur":40076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing.exe" }}
+,{ "pid":12345, "tid":16, "ts":1717161364478805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364478858, "dur":4260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing.exe" }}
+,{ "pid":12345, "tid":16, "ts":1717161364483262, "dur":30204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364513473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364513483, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364515901, "dur":54654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364570560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364570568, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364572946, "dur":27430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364600382, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364600394, "dur":8482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364609033, "dur":41272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364650313, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364650325, "dur":6447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364657157, "dur":29549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364686710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364686717, "dur":5774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364693234, "dur":268787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364962027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717161364962036, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/ZhuosFiles/FinalProject/MusicHealing_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717161364964721, "dur":177733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717161365146821, "dur":1919, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1717161365175084, "dur": 1068, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717161365174382, "dur": 1789, "ph": "X", "name": "Write chrome-trace events", "args": {} },
